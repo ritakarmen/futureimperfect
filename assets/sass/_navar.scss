@@ -1,0 +1,23 @@
+.navbar{
+	background: url(../../img/header-bg.jpg);
+	color:$blancogris;
+	padding-top: 1%;
+}
+.navbar-default {
+    border-color: $transparente;
+}
+.navbar-default .navbar-nav{
+	li{
+		a {
+	    	color: $blancogris;
+	    	font-weight: bold;
+	    }
+	}
+}
+.navbar-default {
+	.navbar-brand {
+	    color: $dorado;
+	    font-size: 2em;
+	    font-family: $fuente8, $fuente2, $fuente3, $fuente4, $fuente6;
+	 }
+}

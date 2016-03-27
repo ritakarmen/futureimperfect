@@ -1,0 +1,22 @@
+$blancogris: #F7F4E5;
+$transparente: rgba(15, 15, 16, 0);
+$dorado: #FED136;
+$griss:#777777;
+$grissoscuro:#222222;
+$negro:#1D0101;
+$blanco:#FFFFFF;
+$grisazulado:#F1EDED;
+$fuente1: Montserrat;
+$fuente2: Helvetica Neue;
+$fuente3: Helvetica;
+$fuente4: Arial;
+$fuente5: sans-serif;
+$fuente6: cursive;
+$fuente7: Roboto Slab;
+$fuente8: Kaushan Script;
+$fuente9: Droid Serif;
+.estilo {
+    font-family: $fuente1, $fuente2, $fuente3, $fuente4, $fuente5;
+    text-transform: uppercase;
+    font-weight: 700;
+}

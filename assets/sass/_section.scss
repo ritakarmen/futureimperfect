@@ -1,0 +1,26 @@
+section{
+	padding-top:10%;
+	padding-bottom:10%;
+}
+
+section h3{
+	.section-subheading {
+		@mixin fuente{
+			font: {
+				-size: 16px;
+			    -family: $fuente9, $fuente2, $fuente3, $fuente4, $fuente5;
+			    -style: italic;
+			    -weight: 400;
+			}
+		    text-transform: none;
+		    margin-bottom: 75px;
+	    }
+	}
+}
+section h2{
+	.section-heading {
+	    font-size: 40px;
+	    margin-top: 0;
+	    margin-bottom: 15px;
+	}
+}

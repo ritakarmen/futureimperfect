@@ -1,9 +1,83 @@
-body{
-	background: #F4F4F4;
+
+body {
+    overflow-x: hidden;
+    font-family: $fuente7, $fuente2, $fuente3, $fuente4, $fuente5;
 }
-section{
-	color:#AAAAAA;
+
+aside{
+  padding: 3% 0 3% 0;
 }
-h1{
-	color:black;
+footer{
+  padding-top:3%;
+}
+
+
+i{
+  .fa{
+    color:$dorado;
+  }
+}
+i.fa-shopping-cart,
+i.fa-laptop,
+i.fa-lock,
+i.fa-twitter,
+i.fa-facebook,
+i.fa-linkedin{
+  color:$blancogris;
+}
+.fa-circle{
+  color:$dorado;
+}
+
+.btn-xl {
+    color: $blancogris;
+    background-color: $dorado;
+    border-color: $dorado;
+    font-family: $fuente1, $fuente2, $fuente3, $fuente4, $fuente5;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px;
+}
+
+.titul{
+  color:$blancogris;
+}
+
+.text-muted {
+    color: $griss;
+    padding-top:5%;
+}
+
+h1, h2, h3, h4, h5, h6{
+  @extend .estilo;
+}
+
+.bg-light-gray {
+    background-color: $blancogris;
+}
+
+.team-member {
+  img {
+      margin: 0 auto;
+      border: 7px solid $grisazulado;
+  }
+}
+
+ul{
+  &.social-buttons li a {
+      display: block;
+      background-color: $grissoscuro;
+      height: 40px;
+      width: 40px;
+      border-radius: 100%;
+      font-size: 20px;
+      line-height: 40px;
+      color: $blancogris;
+      outline: none;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+  }
 }

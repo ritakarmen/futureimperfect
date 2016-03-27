@@ -1,0 +1,17 @@
+#portfolio {
+	.portfolio-item{
+		 .portfolio-caption {
+		    max-width: 400px;
+		    margin: 0 auto;
+		    background-color: $blanco;
+		    text-align: center;
+		    padding: 25px;
+		}
+	}
+}
+#portfolio {
+    z-index: 2;
+}
+.portfolio-item{
+	padding-top:3%;
+}
