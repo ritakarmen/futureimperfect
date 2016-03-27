@@ -1,26 +1,17 @@
 doctype html
 html(lang="es")
-head
-  meta(charset="utf-8")
-  meta(name="viewport",content="width=device-width,initial-scale=1")
-  title ::AGENCY::
-  link(href="css/bootstrap.min.css",rel="stylesheet")
-  link(href="css/main.css",rel="stylesheet")
-  link(href="font-awesome/css/font-awesome.min.css",rel="stylesheet",type="text/css")
-  link(href="https://fonts.googleapis.com/css?family=Montserrat:400,700",rel="stylesheet",type="text/css")
-  link(href='https://fonts.googleapis.com/css?family=Kaushan+Script',rel='stylesheet',type='text/css')
-  link(href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet',type='text/css')
-  link(href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700',rel='stylesheet',type='text/css')
-body#page-top.index
-  include nav.jade
-  include header.jade
-  include section#services.jade
-  include section#portfoli.jade
-  include section#about.jade
-  include section#team.jade 
-  include aside.clients.jade
-  include section#contact.jade
-  include footer.jade       
-
-script(src="js/jquery-min.js")
-script(src="js/bootstrap.min.js")
+	head
+		title Future Imperfect
+		meta(charset="utf-8")
+		meta(name="viewport",content="whidth=device-width, initial-scale=1.0")
+		link(href="css/bootstrap.css",rel="stylesheet",media="screen")
+		link(href="css/font-awesome.min.css",rel="stylesheet",media="screen")
+		link(href="css/main.css",rel="stylesheet",media="screen")
+	body
+		include nav.jade
+		include magna.jade
+		include ultricies.jade
+		include euismo.jade
+			
+	script(src="js/jquery-min.js")
+	script(src="js/bootstrap.min.js")

@@ -1,24 +1,40 @@
-header{
-	background-image: url(../../img/header-bg.jpg);
-  	background-repeat: none;
-  	background-size: cover;
-  	background-position: center center;
-  	background-attachment: scroll;
-  	color: $blancogris;
+.hexagono {
+    overflow: hidden;
+    visibility: hidden;
+/*     @include transform:rotate((120deg));*/
+   -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    transform: rotate(120deg);
+    cursor: pointer;
 }
-.cajaheader{
-	padding-top: 600px;
-    padding-bottom: 200px;
-    font-family: $fuente1, $fuente2, $fuente3, $fuente4, $fuente5;
+.imagem1{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
 }
-.welcomeheader	{
-	font-family: $fuente9, $fuente2, $fuente3, $fuente4, $fuente5;
-    font-style: italic;
-    font-size: 40px;
-    padding-top: 1%;
+.imagem2{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url(../../images/logo.jpg);
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -ms-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
 }
-.saludoheader{
-	font-size: 75px;
-	font-weight: bold;
-	padding-top: 1%;
+
+.um {
+    width: 70px;
+    height: 100px;
+    margin: 0 0 0 650px;
 }
